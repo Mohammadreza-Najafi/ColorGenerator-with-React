@@ -1,5 +1,6 @@
 import {useState} from "react";
 import Values from "values.js"
+import SingleColor from "./SingleColor.jsx";
 
 function App() {
     const [color,setColor] = useState('')
@@ -17,6 +18,7 @@ function App() {
         }
 
     }
+
   return (
       <>
           <section className="container">
@@ -42,6 +44,7 @@ function App() {
           </section>
       </>
   )
+
 }
 
 export default App
